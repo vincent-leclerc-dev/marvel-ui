@@ -1,0 +1,36 @@
+html, body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;  
+  background-color: #101010;
+}
+
+body{
+  min-height: 100vh;
+}
+
+.flex-grow {
+   flex: 1;
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+textarea:focus, input:focus {
+  outline: none;
+  border:none;
+}
+
+.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
